@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta name="description" content="Official website for ICCV25 paper: Task-Specific Zero-shot Quantization-Aware Training for Object Detection">
+  <meta property="og:title" content="ICCV25; ZSQ; Object Detection"/>
   <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
@@ -25,7 +25,7 @@
 
 
   <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/qat.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,27 +52,32 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Task-Specific Zero-shot Quantization-Aware Training for Object Detection</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://lichangh20.github.io" target="_blank">Changhao Li</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://openreview.net/profile?id=~Xinrui_Chen1" target="_blank">Xinrui Chen</a><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://openreview.net/profile?id=~Ji_Wang8" target="_blank">Ji Wang</a><sup>*</sup>,</span>
+                    <span class="author-block">
+                      <a href="https://openreview.net/profile?id=~Kang_Zhao5" target="_blank">Kang Zhao</a><sup></sup>,</span>
+                      <span class="author-block">
+                        <a href="https://ml.cs.tsinghua.edu.cn/~jianfei/" target="_blank">Jianfei Chen</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block">Tsinghua University<br><strong>ICCV 2025</strong></span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
+                  
+                  <!-- todo: add this once arxiv version is released-->
+                  <!-- <div class="column has-text-centered">
+                    <div class="publication-links"> -->
                          <!-- Arxiv PDF link -->
-                      <span class="link-block">
+                      <!-- <span class="link-block">
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -80,32 +85,21 @@
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+                    </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/DFQ-Dojo/dfq-toolkit" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code - Coming Soon</span>
                   </a>
                 </span>
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -113,7 +107,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -121,24 +115,6 @@
     </div>
   </div>
 </section>
-
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -148,7 +124,9 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Quantization is a key technique to reduce network size and computational complexity by representing the network parameters with a lower precision. Traditional quantization methods rely on access to original training data, which is often restricted due to privacy concerns or security challenges. Zero-shot Quantization (ZSQ) addresses this by using synthetic data generated from pre-trained models, eliminating the need for real training data.
+            Recently, ZSQ has been extended to object detection. However, existing methods use unlabeled task-agnostic synthetic images that lack the specific information required for object detection, leading to suboptimal performance. In this paper, we propose a novel task-specific ZSQ framework for object detection networks, which consists of two main stages. First, we introduce a bounding box and category sampling strategy to synthesize a task-specific calibration set from the pre-trained network, reconstructing object locations, sizes, and category distributions without any prior knowledge. Second, we integrate task-specific training into the knowledge distillation process to restore the performance of quantized detection networks.
+            Extensive experiments conducted on the MS-COCO and Pascal VOC datasets demonstrate the efficiency and state-of-the-art performance of our method.
           </p>
         </div>
       </div>
@@ -158,109 +136,100 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Motivation</h2>
+    <br>
+    <div style="display: flex; justify-content: center;">
+      <img src="static/images/motivation.png" alt="MY ALT TEXT">
   </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+    <br>
+    We visualize different synthetic image types and analyze their effects on zero-shot quantization-aware training with the Mask R-CNN object detection network. 
+    The results demonstrate that <em>task-specific</em> images (Fig. (d)) enable the extraction of a richer set of features compared to <em>task-agnostic</em> images (Fig. (c)). 
+    In contrast, <em>task-mismatched</em> images (Fig. (b)) cause more significant performance degradation. These findings highlight the importance of using both 
+    task-specific calibration datasets and task-specific training to ensure the effectiveness of zero-shot quantization-aware training for object detection networks.
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
-<!-- End youtube video -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
+<section class="section hero is-light">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Contribution</h2>
+    <!-- <br> -->
+    <ol>
+      <li> <strong>Identify the drawback of task-agnostic calibration: </strong> We emphasize the significance of task-specific synthetic
+        images for zero-shot quantization of object detection networks. </li>
+      <li> <strong>Task-specific object detection images synthesis: </strong> We propose a bounding box sampling method tailored for 
+        object detection to reconstruct object categories, locations, and sizes in synthetic samples without any prior knowledge. </li>
+      <li> <strong>Task-specific quantized network distillation: </strong> We interate task-specific finetuning into quantized network 
+        distillation, effectively restoring the performance of quantized object detection networks.  </li>
+    </ol>
   </div>
 </section>
-<!-- End video carousel -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Overall Structure</h2>
+    <br>
+    <div style="display: flex; justify-content: center;">
+      <img src="static/images/structure.png" alt="MY ALT TEXT">
+    </div>
+    <br>
+    We constuct a task-specific condensed calibration set in Stage 1, followed by quantization-aware training with task-specific distillation in Stage 2.
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Comparison with YOLO Networks</h2>
+    <br>
+    <div style="display: flex; justify-content: center;">
+      <img src="static/images/yolo_main.png" alt="MY ALT TEXT">
+    </div>
+    <br>
+    We conduct experiments using both the widely adopted YOLOv5 series and the latest YOLOv11 series models, with strong real-data QAT baselines such as LSQ and LSQ+. 
+    While LSQ and LSQ+ are trained on 120k real images, our approach requires only 2k ground-truth labels to generate the calibration set. Despite this significant reduction 
+    in training data, our method achieves strong performance across various <strong>bit-widths</strong> and <strong>network sizes</strong>, while also offering <strong>improved training efficiency</strong>.
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Comparison with Mask R-CNN Networks</h2>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+      <img src="static/images/cnn_mask_rcnn.png" alt="CNN Mask RCNN" style="width: 45%;">
+      <img src="static/images/vit_mask_rcnn.png" alt="ViT Mask RCNN" style="width: 45%;">
+    </div>
+    <br>
+    We also conduct experiments using Mask R-CNN with both CNN and Swin-T/S backbones. 
+    The strong performance across these setups highlights the <strong>generalizability</strong> of our method to different object detection architectures.
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Comparison with Task-Agnostic Methods</h2>
+    <br>
+    <div style="display: flex; justify-content: center;">
+      <img src="static/images/task-agnostic.png" alt="MY ALT TEXT">
+    </div>
+    <br>
+    We demonstrate that incorporating <em>task-specific</em> loss enhances detection performance across various models, including YOLO11-s/m and Swin-T/S.
+
+    This improvement stems from two key aspects:
+    <ol>
+       <li><strong>Task-specific training loss</strong> enriches the image generation process by embedding detailed information—such as 
+        bounding box categories and coordinates—leading to a data distribution that more closely mimics real-world images.</li> 
+        <li>During <strong>quantization-aware training</strong>, it allows the model to learn directly from labels, thereby improving its ability to extract and interpret meaningful visual information.</li> 
+    </ol>
+  </div>
+</section>
 
 
-
-
-
-
+<!-- todo: add after iccv 2025 poster is ready -->
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -270,17 +239,18 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
+<!-- todo: add after arxiv is released -->
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
