@@ -1,1 +1,1 @@
-Official Webpage for ICCV 2025 paper "Task-Specific Zero-shot Quantization-Aware Training for Object Detection" (Code and Paper released soon..)
+Official Webpage for ICCV 2025 paper "Task-Specific Zero-shot Quantization-Aware Training for Object Detection"
